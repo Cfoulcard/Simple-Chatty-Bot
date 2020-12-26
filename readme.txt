@@ -1,0 +1,1 @@
+This is a project created with the help of the JetBrains Academy Tutorial. A simple bot showcasing basic Kotlin skills
