@@ -2,11 +2,10 @@ package bot
 
 import java.util.Scanner
 
-
 val scanner = Scanner(System.`in`) // Do not change this line
 
 fun main() {
-   greet("Aid", "2020") // change it as you need
+   greet("OceanOS", "2021") // change it as you need
    remindName()
    guessAge()
    count()
@@ -15,14 +14,14 @@ fun main() {
 }
 
 fun greet(assistantName: String, birthYear: String) {
-   println("Hello! My name is ${assistantName}.")
+   println("Mahalo! My name is ${assistantName}.")
    println("I was created in ${birthYear}.")
    println("Please, remind me your name.")
 }
 
 fun remindName() {
    val name = scanner.nextLine()
-   println("What a great name you have, ${name}!")
+   println("That's a very unique name, ${name}!")
 }
 
 fun guessAge() {
@@ -32,7 +31,7 @@ fun guessAge() {
    val rem5 = scanner.nextInt()
    val rem7 = scanner.nextInt()
    val age = (rem3 * 70 + rem5 * 21 + rem7 * 15) % 105
-   println("Your age is ${age}; that's a good time to start programming!")
+   println("Is your age ${age}? Hope I guessed lucky!")
 }
 
 fun count() {
@@ -62,5 +61,5 @@ fun test() {
 }
 
 fun end() {
-   println("Congratulations, have a nice day!") // Do not change this text
+   println("Congratulations, you got it! Have a nice day!") // Do not change this text
 }

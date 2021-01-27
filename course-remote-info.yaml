@@ -3,7 +3,7 @@ hyperskill_project:
   ide_files: https://stepik.org/media/attachments/lesson/405270/additional_files.json
   is_template_based: true
   use_ide: true
-update_date: Sun, 27 Dec 2020 18:07:21 UTC
+update_date: Wed, 27 Jan 2021 00:55:09 UTC
 stages:
 - id: 668
   step: 10770
@@ -46,6 +46,8 @@ topics:
   - title: Standard input
     theory_id: 4445
   2:
+  - title: Modulo division
+    theory_id: 10586
   - title: Units of information
     theory_id: 6865
   - title: The classification of basic types
@@ -56,8 +58,6 @@ topics:
     theory_id: 4672
   - title: Reading data with a readLine
     theory_id: 11224
-  - title: Modulo division
-    theory_id: 10586
   - title: Arithmetic operations
     theory_id: 4472
   - title: Increment and decrement
